@@ -36,3 +36,14 @@ console.log(person.name);
 let selectedColors = ['red', 'blue'];
 selectedColors [2] = 'green';
 console.log(selectedColors.length);
+
+//If a customer has more than 100 points, they are a 'gold' customer, otherwise, they are a 'silver' customer.
+let points = 110
+//points > 100 results in a boolean (i.e. true or false) 
+//? is a ternary meaning it will evaluate the first expression following (gold) and if not true will push second option (silver)
+let type = points > 100 ? 'gold' : 'silver';
+console.log(type);
+
+//Logical AND (&&) 
+//Logical OR (||)
+//NOT (!)
